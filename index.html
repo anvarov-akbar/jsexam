@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/main.min.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<title>Document</title>
+	</head>
+	<body>
+
+		<div class="container-xl">
+
+			<a class="logo__link" href="./index.html" 
+			>
+			<img class="logo__img img-fluid" src="./img/pokemon.png" alt="pokemon logo"
+			width="610"
+			height="225"
+			></a>
+
+			<form class="form row d-flex justify-content-center mb-4	">
+
+				<input  class="form__input1  name col-1 form-text text-muted rounded" type="text" placeholder="name">
+				
+				<input class="form__input2 weight col-1 form-text text-muted rounded" value="http://www.serebii.net/pokemongo/pokemon/008.png" type="text" placeholder="img ... (url)">
+				
+				<input class="form__input3 weight col-1 form-text text-muted rounded" type="text" placeholder="title">
+
+				<input  class="form__input4  name col-1 form-text text-muted rounded"  type="number" placeholder="weight kg">
+				
+				<input class="form__input5 age col-1 form-text text-muted rounded"  type="number" placeholder="height m">
+				
+
+				<button class="form__btn btn-primary col-1 form-text rounded" type="submit" >add</button>
+
+
+
+			</form>
+
+
+			<ul class="pokemon__list row d-flex justify-content-center p-0 ">
+
+			</ul>
+
+		</div>
+
+
+
+
+
+		<script src="./js/pokemon.js"></script>
+		<script src="./js/main.js"></script>
+		<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
